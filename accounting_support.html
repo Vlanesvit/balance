@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="css/rs-header.css" />
 		<script src="js/rs-header.js" defer></script>
 		<header>
-			<div class="rs-header" data-aos="fade" data-aos-delay="100">
+			<div class="rs-header">
 				<div class="rs-header__container">
 					<div class="rs-header__wrapper">
 						<div class="rs-header__logo">
@@ -720,11 +720,152 @@
 
 		<main class="page">
 
-			<section class="rs-banner"></section>
+			<link rel="stylesheet" href="css/rs-banner.css">
+			<section class="rs-banner _inner-banner">
+				<div class="rs-banner__container">
+					<div class="rs-banner__block">
+						<div class="rs-banner__title">
+							<h1 data-aos="fade-up" data-aos-delay="100">
+								Ваши финансы
+								<span class="title-icon">
+									<img src="./img/blocks/banner/banner-title_icon-2.svg" alt="">
+								</span>
+								под <br>
+								<span class="primary-color">надежным контролем!</span>
+							</h1>
+							<h5 data-aos="fade-up" data-aos-delay="200">Профессиональное бухгалтерское сопровождение для
+								вашего бизнеса</h5>
+							<div class="rs-banner__btn" data-aos="fade-up" data-aos-delay="300">
+								<a href="#" class="rs-btn _btn-primary">Получить бесплатную консультацию</a>
+							</div>
+						</div>
 
-			<section class="rs-trust"></section>
+						<div class="rs-banner__img" data-aos="fade-up" data-aos-delay="400">
+							<img src="./img/blocks/banner/banner_img-2.png" alt="">
+						</div>
 
-			<section class="rs-text-block"></section>
+						<div class="rs-banner__social" data-aos="fade-up" data-aos-delay="100">
+							<ul>
+								<li>
+									<a href="#">
+										<svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M27.3619 6.43672C27.5542 5.75312 27.3619 5.25 26.4366 5.25H23.3751C22.5954 5.25 22.2367 5.68203 22.0444 6.16328C22.0444 6.16328 20.485 10.1609 18.2811 12.7531C17.569 13.5023 17.2415 13.743 16.8517 13.743C16.6593 13.743 16.3631 13.5023 16.3631 12.8187V6.43672C16.3631 5.61641 16.1447 5.25 15.5002 5.25H10.6869C10.1983 5.25 9.90724 5.63281 9.90724 5.98828C9.90724 6.76484 11.0092 6.94531 11.1236 9.13281V13.8797C11.1236 14.9188 10.9468 15.1102 10.557 15.1102C9.51739 15.1102 6.99121 11.0961 5.4942 6.50234C5.19272 5.61094 4.89644 5.25 4.11156 5.25H1.04998C0.176729 5.25 0 5.68203 0 6.16328C0 7.01641 1.03958 11.2547 4.83927 16.8547C7.37065 20.6773 10.9364 22.75 14.1799 22.75C16.1292 22.75 16.3683 22.2906 16.3683 21.4977C16.3683 17.8445 16.1915 17.5 17.1687 17.5C17.621 17.5 18.4006 17.7406 20.2199 19.5836C22.2991 21.7711 22.6421 22.75 23.8065 22.75H26.8681C27.7413 22.75 28.1831 22.2906 27.9284 21.3828C27.3463 19.4742 23.4114 15.5477 23.2347 15.2852C22.7825 14.6727 22.9124 14.3992 23.2347 13.8523C23.2399 13.8469 26.9772 8.3125 27.3619 6.43672Z"
+												fill="#2B2A28" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg width="28" height="29" viewBox="0 0 28 29" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.9945 2.5C17.2375 2.5 20.2891 3.76328 22.5805 6.06016C24.8719 8.35703 26.25 11.4031 26.25 14.6461C26.25 21.3398 20.6828 26.7867 13.9945 26.7867H13.9891C11.9547 26.7867 9.95859 26.2781 8.18672 25.3102L1.75 27L3.47266 20.7109C2.41172 18.868 1.85391 16.7789 1.85391 14.6406C1.85391 7.94688 7.30078 2.5 13.9945 2.5ZM19.5289 17.1833C19.2281 17.0301 17.7352 16.2973 17.4563 16.1989C17.1773 16.095 16.975 16.0458 16.7727 16.352C16.5703 16.6583 15.9906 17.3364 15.8102 17.5442C15.6352 17.7465 15.4547 17.7739 15.1539 17.6208C13.3711 16.7293 12.2008 16.0293 11.025 14.0114C10.8519 13.7138 10.9672 13.5932 11.2031 13.3464C11.3921 13.1487 11.6586 12.87 11.9164 12.3543C12.0148 12.152 11.9656 11.977 11.8891 11.8239C11.8351 11.716 11.5178 10.9429 11.247 10.2832C11.1335 10.0067 11.0282 9.75006 10.9539 9.57075C10.7377 9.05177 10.5172 9.05215 10.3407 9.05246C10.3164 9.05251 10.2929 9.05255 10.2703 9.05122C10.0953 9.04028 9.89297 9.04028 9.69062 9.04028C9.48828 9.04028 9.16016 9.11685 8.88125 9.41763C8.8629 9.43777 8.84238 9.45977 8.82004 9.4837C8.50284 9.82358 7.82031 10.5549 7.82031 11.9497C7.82031 13.4039 8.85283 14.8114 9.04289 15.0705C9.04795 15.0774 9.05242 15.0835 9.05625 15.0887C9.06678 15.1026 9.08599 15.1301 9.11361 15.1696C9.48753 15.7042 11.4041 18.4442 14.2406 19.6715C16.1656 20.5028 16.9203 20.5739 17.8828 20.4317C18.468 20.3442 19.6766 19.6989 19.9281 18.9879C20.1797 18.277 20.1797 17.67 20.1031 17.5442C20.0437 17.4299 19.8924 17.3576 19.6686 17.2506C19.6248 17.2297 19.5782 17.2074 19.5289 17.1833Z"
+												fill="#2B2A28" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#"><svg width="28" height="29" viewBox="0 0 28 29" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M26.179 5.89207L22.4821 23.3264C22.2032 24.5569 21.4759 24.8632 20.4423 24.2835L14.8095 20.1327L12.0915 22.7468C11.7907 23.0475 11.5391 23.2991 10.9595 23.2991L11.3641 17.5624L21.804 8.12879C22.2579 7.7241 21.7056 7.49989 21.0985 7.90457L8.19227 16.0311L2.63602 14.2921C1.42743 13.9147 1.40555 13.0835 2.88758 12.5038L24.6204 4.13114C25.6266 3.75379 26.5071 4.35535 26.179 5.89207Z"
+												fill="#2B2A28" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+							<h6>Мы в соцсетях:</h6>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-trust.css">
+			<section class="rs-trust">
+				<div class="rs-trust__container">
+					<h2 data-aos="fade-up" data-aos-delay="100">Бухгалтерия под ключ: вы можете <br> довериться нам</h2>
+
+					<div class="rs-trust__wrapper">
+						<div class="rs-trust__list">
+							<div class="rs-trust__item" data-aos="fade-up" data-aos-delay="100">
+								<div class="rs-trust__num">01</div>
+								<div class="rs-trust__img">
+									<img src="./img/blocks/trust/trust_img-1.jpg" alt="">
+								</div>
+								<div class="rs-trust__desc">
+									<h4>Комплексное ведение бухгалтерии</h4>
+									<p>Мы берем на себя полное управление вашей бухгалтерией: от ежедневного учета
+										операций до подготовки и сдачи отчетности в налоговые органы. Вы можете быть
+										уверены, что все финансовые процессы вашего бизнеса будут в порядке.</p>
+								</div>
+							</div>
+
+							<div class="rs-trust__item" data-aos="fade-up" data-aos-delay="200">
+								<div class="rs-trust__num">02</div>
+								<div class="rs-trust__img">
+									<img src="./img/blocks/trust/trust_img-2.jpg" alt="">
+								</div>
+								<div class="rs-trust__desc">
+									<h4>Индивидуальный подход</h4>
+									<p>Каждый бизнес уникален, и мы учитываем это в нашей работе. Мы адаптируем наши
+										услуги под конкретные нужды вашего бизнеса, предлагая решения, которые
+										оптимизируют финансовые процессы и позволяют вам сосредоточиться на развитии.
+									</p>
+								</div>
+							</div>
+
+							<div class="rs-trust__item" data-aos="fade-up" data-aos-delay="300">
+								<div class="rs-trust__num">03</div>
+								<div class="rs-trust__img">
+									<img src="./img/blocks/trust/trust_img-3.jpg" alt="">
+								</div>
+								<div class="rs-trust__desc">
+									<h4>Экономия времени и ресурсов</h4>
+									<p>Бухгалтерское сопровождение от нашей компании позволяет вам сократить затраты на
+										штатных бухгалтеров, снизить риски ошибок и штрафов, а также освободить время
+										для более важных задач. Мы работаем оперативно и эффективно, предоставляя
+										качественный сервис без лишних затрат.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-text-block.css">
+			<section class="rs-text-block">
+				<div class="rs-text-block__container">
+					<div class="rs-text-block__wrapper">
+						<div class="rs-text-block__item" data-aos="fade-up" data-aos-delay="100">
+							<div class="rs-text-block__desc">
+								<h1>Берем на себя все задачи, связанные
+									с бухгалтерией</h1>
+								<p>В услугу бухгалтерского сопровождения обычно входят следующие ключевые элементы</p>
+							</div>
+						</div>
+						<div class="rs-text-block__item" data-aos="fade-up" data-aos-delay="200">
+							<div class="rs-text-block__list">
+								<ul>
+									<li>Регистрация и обработка финансовых операций (доходы, расходы, банковские
+										транзакции
+										и др.)</li>
+									<li>Формирование и поддержка бухгалтерских записей и отчетов</li>
+									<li>Учёт и контроль за движением денежных средств, товарных запасов, дебиторской и
+										кредиторской задолженности</li>
+									<li>Составление и подача налоговых деклараций и отчетов в налоговые органы.</li>
+									<li>Подготовка отчетов для пенсионных и социальных фондов</li>
+									<li>Формирование и предоставление квартальных и годовых финансовых отчетов</li>
+									<li>Консультирование по вопросам налогообложения, финансового планирования и
+										бухгалтерского учёта</li>
+									<li>Помощь в подготовке документов для проверок и аудитов</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<link rel="stylesheet" href="css/rs-form.css">
 			<section class="rs-form">
@@ -892,9 +1033,59 @@
 				</div>
 			</section>
 
-			<section class="rs-steps"></section>
+			<link rel="stylesheet" href="css/rs-steps.css">
+			<section class="rs-steps">
+				<div class="rs-steps__container">
+					<div class="rs-steps__wrapper">
+						<div class="rs-steps__item" data-aos="fade-up" data-aos-delay="100">
+							<div class="rs-steps__title">
+								<h1>
+									Подключить <br>
+									<span class="title-icon">
+										<img src="./img/blocks/steps/steps_icon-1.svg" alt="">
+									</span> нашего бухгалтера <br>
+									просто!
+								</h1>
+								<p>В услугу бухгалтерского сопровождения обычно входят следующие ключевые элементы</p>
+								<div class="rs-steps__img">
+									<img src="./img/blocks/steps/steps_img-1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="rs-steps__item" data-aos="fade-up" data-aos-delay="200">
+							<div class="rs-steps__list">
+								<ul>
+									<li>Оставьте заявку на сайте</li>
+									<li>На консультации мы ознакомимся с вашей компанией</li>
+									<li>Подготовим рекомендации и составим КП</li>
+									<li>Наш бухгалтер приступит к делам вашей компании</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-			<section class="rs-queshion"></section>
+			<link rel="stylesheet" href="css/rs-queshion.css">
+			<section class="rs-queshion">
+				<div class="rs-queshion__container">
+					<div class="rs-queshion__wraper" data-aos="fade-up" data-aos-delay="100">
+						<div class="rs-queshion__bg">
+							<img src="./img/blocks/queshion/queshion_bg-1.png" alt="">
+						</div>
+						<div class="rs-queshion__body">
+							<h1>Напишите нам
+								<span class="title-icon">
+									<img src="./img/blocks/queshion/queshion_icon-1.svg" alt="">
+								</span>
+								если <br> у Вас остались вопросы
+							</h1>
+							<h5>Мы ответим на них в ближайшее время</h5>
+							<a href="#" class="rs-btn _btn-primary">Задать вопрос</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
 		</main>
 
