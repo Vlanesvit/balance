@@ -321,7 +321,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 886px;
   margin: 0 auto 34px;
 }
 .rs-banner__title h1 {
@@ -397,7 +396,7 @@
 .rs-banner__title h5 {
   font-size: 18px;
   font-weight: 600;
-  line-height: 110%;
+  line-height: 120%;
   max-width: 529px;
   margin: 15px auto 0px;
 }

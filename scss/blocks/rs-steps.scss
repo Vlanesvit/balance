@@ -31,8 +31,12 @@
 	// .rs-steps__title
 	&__title {
 		@media (min-width: 991.98px) {
-			max-width: 624px;
-			padding-right: 50px;
+			max-width: 680px;
+			padding-right: 20px;
+
+			@media (max-width: 1600px){
+				  padding-right: 50px;
+			}
 		}
 
 		h1 {
@@ -109,11 +113,6 @@
 
 			li {
 				counter-increment: list-counter;
-				font-weight: 600;
-				font-size: 18px;
-				// line-height: 23px;
-				line-height: 130%;
-				color: #2b2a28;
 				padding: 30px 40px;
 				background: #fefaee;
 				border-radius: 20px;
@@ -134,17 +133,12 @@
 						content: "";
 						position: absolute;
 						right: calc(100% + 56px);
-						top: calc(100% - 14px);
+						top: calc(100% - 50%);
 						border: 2px dashed #000;
-						height: 64px;
+						height: 110%;
 
 						@media (max-width: 1439.98px) {
-							top: calc(100% - 20px);
 							right: calc(100% + 40px);
-						}
-
-						@media (max-width: 1169.98px) {
-							top: calc(100% - 24px);
 						}
 
 						@media (max-width: 991.98px) {
@@ -223,6 +217,32 @@
 						right: 0;
 						margin-right: 10px;
 					}
+				}
+
+				h6 {
+					font-weight: 600;
+					font-size: 18px;
+					// line-height: 23px;
+					line-height: 130%;
+					color: #2b2a28;
+
+					@media (max-width: 1439.98px) {
+						font-size: 16px;
+					}
+
+					@media (max-width: 1169.98px) {
+						font-size: 14px;
+					}
+
+					@media (max-width: 991.98px) {
+						font-size: 13px;
+					}
+				}
+
+				p {
+					margin-top: 10px;
+					// line-height: 23px;
+					line-height: 130%;
 				}
 			}
 		}

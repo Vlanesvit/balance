@@ -1,4 +1,38 @@
 @charset "UTF-8";
+@media (min-width: 1439.98px) {
+  .rs-text-block {
+    margin-top: 67px;
+  }
+}
+.rs-text-block__container h1 {
+  font-weight: 500;
+  font-size: 70px;
+  letter-spacing: 0px;
+  line-height: 105%;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media (max-width: 1439.98px) {
+  .rs-text-block__container h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1169.98px) {
+  .rs-text-block__container h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 991.98px) {
+  .rs-text-block__container h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .rs-text-block__container h1 {
+    font-size: 20px;
+  }
+}
 .rs-text-block__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,10 +68,42 @@
             flex: 0 0 100%;
   }
 }
+@media (min-width: 1439.98px) {
+  .rs-text-block__item .form__form {
+    margin-top: 17px;
+  }
+}
+.rs-text-block__item .form__line .rs-input {
+  color: var(--font-color);
+  border: 1px solid #e9e7db;
+  background-color: #fff;
+}
+.rs-text-block__item .form__line .rs-input::-webkit-input-placeholder {
+  color: #2b2a28;
+}
+.rs-text-block__item .form__line .rs-input::-moz-placeholder {
+  color: #2b2a28;
+}
+.rs-text-block__item .form__line .rs-input:-ms-input-placeholder {
+  color: #2b2a28;
+}
+.rs-text-block__item .form__line .rs-input::-ms-input-placeholder {
+  color: #2b2a28;
+}
+.rs-text-block__item .form__line .rs-input::placeholder {
+  color: #2b2a28;
+}
+.rs-text-block__item .form__agreement {
+  color: #646464;
+}
 @media (min-width: 991.98px) {
   .rs-text-block__desc {
-    max-width: 645px;
+    max-width: 680px;
   }
+}
+.rs-text-block__desc h5 {
+  font-weight: 500;
+  line-height: 120%;
 }
 .rs-text-block__desc h1 {
   font-weight: 500;
@@ -73,6 +139,36 @@
 }
 .rs-text-block__list {
   width: 100%;
+}
+.rs-text-block__list > *:first-child {
+  margin-top: 0px !important;
+}
+.rs-text-block__list > *:last-child {
+  margin-bottom: 0px !important;
+}
+.rs-text-block__list p {
+  margin: 20px 0px;
+  line-height: 160%;
+}
+@media (max-width: 1439.98px) {
+  .rs-text-block__list p {
+    margin: 10px 0px;
+  }
+}
+.rs-text-block__list blockquote {
+  background: #fefaee;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+@media (max-width: 1439.98px) {
+  .rs-text-block__list blockquote {
+    padding: 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  .rs-text-block__list blockquote {
+    padding: 20px 16px;
+  }
 }
 .rs-text-block__list ul {
   width: 100%;
