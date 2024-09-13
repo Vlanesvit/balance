@@ -164,13 +164,13 @@ menuFunction()
 // data-goto-header - учитывать header
 // data-goto-top - недокрутить на указанный размер
 // data-goto-speed - скорость (только если используется доп плагин)
-let gotoblock_gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) => {
+let gotoblock_gotoBlock = (targetBlock, noHeader = true, speed = 500, offsetTop = 100) => {
 	const targetBlockElement = document.querySelector(targetBlock);
 	if (targetBlockElement) {
 		let headerItem = "";
 		let headerItemHeight = 0;
 		if (noHeader) {
-			headerItem = ".header";
+			headerItem = ".rs-header";
 			const headerElement = document.querySelector(headerItem);
 			if (!headerElement.classList.contains("_header-scroll")) {
 				headerElement.style.cssText = `transition-duration: 0s;`;

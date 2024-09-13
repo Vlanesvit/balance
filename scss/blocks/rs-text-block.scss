@@ -5,7 +5,7 @@
 
 	// .rs-text-block__container
 	&__container {
-		h1 {
+		& > h1 {
 			font-weight: 500;
 			font-size: 70px;
 			letter-spacing: 0px;
